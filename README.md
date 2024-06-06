@@ -22,6 +22,7 @@ Amazon fine food review Dataset : https://www.kaggle.com/datasets/snap/amazon-fi
 4. Run jupyter notebook and Open the .ipynb notebook file on the localhost:8888
 
 # Key Data Insights
+
 1.Build the recommendation based on popularity of food.
 
 2. Using the scipys csr_matrix build the sparse matrix, basically it stores the explicit indices and values at those indices. So for example, since row=0 and col=0 corresponds to 1 (the first entries of all three arrays in your example). Hence, the [0,0] entry of the matrix is 1.
