@@ -23,6 +23,9 @@ Amazon fine food review Dataset : https://www.kaggle.com/datasets/snap/amazon-fi
 
 # Key Data Insights
 1.Build the recommendation based on popularity of food.
-2. Using the scipys csr_matrix build the sparse matrix, basically it stores the explicit indices and values at those indices. So for example, since row=0 and col=0 corresponds to 1 (the first entries of all three arrays in your example). Hence, the [0,0] entry of the matrix is 1. And so on. And then normalize the data
+
+2. Using the scipys csr_matrix build the sparse matrix, basically it stores the explicit indices and values at those indices. So for example, since row=0 and col=0 corresponds to 1 (the first entries of all three arrays in your example). Hence, the [0,0] entry of the matrix is 1.
+
 3. Then build the collaborative system.Model-based Collaborative Filtering is a personalised recommender system, the recommendations are based on the past behavior of the user and it is not dependent on any additional information.The Popularity-based recommender system is non-personalised and the recommendations are based on frequecy counts, which may be not suitable to the user
+
 4. In popularity based model we saw that for userid 44 and 46 it has recommended the same set of 5 products for both  but Collaborative Filtering based model has recommended entire different list based on the user past purchase history.
